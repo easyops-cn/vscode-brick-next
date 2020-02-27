@@ -4,6 +4,10 @@
     "description": "Brick Next support including placeholder syntax highlighting",
     "version": "0.0.1",
     "publisher": "weareoutman",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/easyops-cn/vscode-brick-next"
+    },
     "engines": {
         "vscode": "^1.24.0"
     },
