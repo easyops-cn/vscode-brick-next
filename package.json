@@ -1,0 +1,24 @@
+{
+    "name": "vscode-brick-next",
+    "displayName": "Brick Next Support",
+    "description": "Brick Next support including placeholder syntax highlighting",
+    "version": "0.0.1",
+    "publisher": "weareoutman",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [{
+            "scopeName": "placeholder.injection.string.quoted.double",
+            "path": "./syntaxes/injection-quoted-double.json",
+            "injectTo": ["source.json", "source.ts"]
+        },{
+            "scopeName": "placeholder.injection.string.quoted.single",
+            "path": "./syntaxes/injection-quoted-single.json",
+            "injectTo": ["source.ts"]
+        }]
+    }
+}
