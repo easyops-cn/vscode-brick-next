@@ -4,7 +4,7 @@
     "description": "VS Code Extension for Brick Next, including placeholder syntax highlighting",
     "version": "0.1.0",
     "publisher": "weareoutman",
-    "homepage": "https://github.com/easyops-cn/vscode-brick-nexts",
+    "homepage": "https://github.com/easyops-cn/vscode-brick-next",
     "repository": {
         "type": "git",
         "url": "https://github.com/easyops-cn/vscode-brick-next"
