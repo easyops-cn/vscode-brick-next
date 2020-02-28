@@ -2,7 +2,7 @@
     "name": "vscode-brick-next",
     "displayName": "Brick Next Support",
     "description": "VS Code Extension for Brick Next, including placeholder syntax highlighting",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "weareoutman",
     "homepage": "https://github.com/easyops-cn/vscode-brick-nexts",
     "repository": {
@@ -15,16 +15,28 @@
     "categories": [
         "Programming Languages"
     ],
-    "keywords": ["brick", "next", "easyops"],
+    "keywords": [
+        "brick",
+        "next",
+        "easyops"
+    ],
     "contributes": {
-        "grammars": [{
-            "scopeName": "placeholder.injection.string.quoted.double",
-            "path": "./syntaxes/injection-quoted-double.json",
-            "injectTo": ["source.json", "source.ts"]
-        },{
-            "scopeName": "placeholder.injection.string.quoted.single",
-            "path": "./syntaxes/injection-quoted-single.json",
-            "injectTo": ["source.ts"]
-        }]
+        "grammars": [
+            {
+                "scopeName": "placeholder.injection.string.quoted.double",
+                "path": "./syntaxes/injection-quoted-double.json",
+                "injectTo": [
+                    "source.json",
+                    "source.ts"
+                ]
+            },
+            {
+                "scopeName": "placeholder.injection.string.quoted.single",
+                "path": "./syntaxes/injection-quoted-single.json",
+                "injectTo": [
+                    "source.ts"
+                ]
+            }
+        ]
     }
 }
