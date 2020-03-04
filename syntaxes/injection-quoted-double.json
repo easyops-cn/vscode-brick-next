@@ -10,7 +10,7 @@
 	"repository": {
 		"placeholder": {
 			"name": "expression.placeholder",
-			"begin": "(?:(\\$)|(@))(\\{)",
+			"begin": "(?:(\\$)|(@))(\\{)(?!\\{)",
 			"end": "\\}",
 			"beginCaptures": {
 			  "1": { "name": "keyword.other" },
