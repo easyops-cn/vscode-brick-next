@@ -36,6 +36,14 @@
                 "injectTo": [
                     "source.ts"
                 ]
+            },
+            {
+                "scopeName": "builtin.entity.injection.string.quoted.double",
+                "path": "./syntaxes/builtin-entity.json",
+                "injectTo": [
+                    "source.json",
+                    "source.ts"
+                ]
             }
         ]
     }
