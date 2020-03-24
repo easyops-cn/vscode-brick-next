@@ -1,0 +1,11 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"scopeName": "builtin.entity.injection.string.quoted.double",
+	"injectionSelector": "L:expression.placeholder.injection",
+	"patterns": [
+		{
+			"name": "entity.name.type",
+			"match": "\\b(?:EVENT|DATA|PIPES|PARAMS|PATH|QUERY(?:_ARRAY)?|APP|HASH|ANCHOR|SYS|FLAGS)\\b"
+		}
+	]
+}
