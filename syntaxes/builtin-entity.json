@@ -4,7 +4,7 @@
 	"injectionSelector": "L:expression.placeholder.injection",
 	"patterns": [
 		{
-			"name": "entity.name.type",
+			"name": "support.class.builtin.js",
 			"match": "\\b(?:EVENT|DATA|PIPES|PARAMS|PATH|QUERY(?:_ARRAY)?|APP|HASH|ANCHOR|SYS|FLAGS)\\b"
 		}
 	]
