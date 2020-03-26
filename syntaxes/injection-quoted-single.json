@@ -5,7 +5,7 @@
 	"patterns": [
 		{
 			"include": "#placeholder"
-		}
+		},
 		{
 			"include": "#transform"
 		}
