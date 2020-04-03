@@ -38,6 +38,13 @@
                 ]
             },
             {
+                "scopeName": "placeholder.injection.string.template",
+                "path": "./syntaxes/injection-template.json",
+                "injectTo": [
+                    "source.ts"
+                ]
+            },
+            {
                 "scopeName": "builtin.entity.injection.string.quoted.double",
                 "path": "./syntaxes/builtin-entity.json",
                 "injectTo": [
