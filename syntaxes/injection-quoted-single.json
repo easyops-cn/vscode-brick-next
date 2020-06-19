@@ -58,7 +58,7 @@
 		},
 		"field": {
 			"name": "support.variable.field",
-			"match": "(?:(QUERY(?:_ARRAY)?|EVENT|APP|HASH|ANCHOR|SYS|FLAGS)\\b(?:\\.[a-zA-Z_\\-0-9\\.\\*\\[\\]\\x{80}-\\x{10FFFF}]+)?)|(?:[a-zA-Z_\\-0-9\\.\\*\\[\\]\\x{80}-\\x{10FFFF}]+)",
+			"match": "(?:(QUERY(?:_ARRAY)?|EVENT|APP|HASH|ANCHOR|SYS|FLAGS|I18N|CTX)\\b(?:\\.[a-zA-Z_\\-0-9\\.\\*\\[\\]\\x{80}-\\x{10FFFF}]+)?)|(?:[a-zA-Z_\\-0-9\\.\\*\\[\\]\\x{80}-\\x{10FFFF}]+)",
 			"captures": {
 				"1": {"name": "entity.name.type"}
 			}
