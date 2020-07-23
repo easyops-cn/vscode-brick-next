@@ -27,6 +27,7 @@
                 "path": "./syntaxes/injection-quoted-double.json",
                 "injectTo": [
                     "source.json",
+                    "source.yaml",
                     "source.ts"
                 ]
             },
@@ -34,7 +35,15 @@
                 "scopeName": "placeholder.injection.string.quoted.single",
                 "path": "./syntaxes/injection-quoted-single.json",
                 "injectTo": [
+                    "source.yaml",
                     "source.ts"
+                ]
+            },
+            {
+                "scopeName": "placeholder.injection.string.unquoted",
+                "path": "./syntaxes/injection-unquoted.json",
+                "injectTo": [
+                    "source.yaml"
                 ]
             },
             {
@@ -42,6 +51,7 @@
                 "path": "./syntaxes/builtin-entity.json",
                 "injectTo": [
                     "source.json",
+                    "source.yaml",
                     "source.ts"
                 ]
             }
