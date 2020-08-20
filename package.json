@@ -56,5 +56,11 @@
                 ]
             }
         ]
+    },
+    "scripts": {
+        "release": "standard-version"
+    },
+    "devDependencies": {
+        "standard-version": "^9.0.0"
     }
 }
