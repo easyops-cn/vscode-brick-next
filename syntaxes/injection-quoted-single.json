@@ -13,10 +13,11 @@
 	"repository": {
 		"placeholder": {
 			"name": "expression.placeholder.injection",
-			"begin": "(<%)\\s",
+			"begin": "(<%)(~?)\\s",
 			"end": "\\s(%>)([^']*)",
 			"beginCaptures": {
-			  "1": { "name": "punctuation.definition.template-expression.begin" }
+			  "1": { "name": "punctuation.definition.template-expression.begin" },
+			  "2": { "name": "keyword.control" }
 			},
 			"endCaptures": {
 			  "1": { "name": "punctuation.definition.template-expression.end" },
