@@ -2,7 +2,7 @@
     "name": "vscode-brick-next",
     "displayName": "Brick Next Support",
     "description": "VS Code Extension for Brick Next, including placeholder syntax highlighting",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "publisher": "weareoutman",
     "homepage": "https://github.com/easyops-cn/vscode-brick-next",
     "repository": {
