@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.5](https://github.com/easyops-cn/vscode-brick-next/compare/v0.3.4...v0.3.5) (2021-03-24)
+
+
+### Features
+
+* add builtin entity of `INSTALLED_APPS` ([a32c4c5](https://github.com/easyops-cn/vscode-brick-next/commit/a32c4c57458201340a9eb52470e46caa6e1a65d3))
+* add constant LOCAL_STORAGE ([900946f](https://github.com/easyops-cn/vscode-brick-next/commit/900946f5e6993f24f8546dc93e83eedc598a4bd5))
+
 ### [0.3.4](https://github.com/easyops-cn/vscode-brick-next/compare/v0.3.3...v0.3.4) (2021-01-12)
 
 
