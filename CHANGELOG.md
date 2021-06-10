@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.6](https://github.com/easyops-cn/vscode-brick-next/compare/v0.3.5...v0.3.6) (2021-06-10)
+
+
+### Bug Fixes
+
+* add builtin keyword of I18N_TEXT ([6bcf873](https://github.com/easyops-cn/vscode-brick-next/commit/6bcf87381daef4f1f61268fb6815cede2168d5e2))
+
 ### [0.3.5](https://github.com/easyops-cn/vscode-brick-next/compare/v0.3.4...v0.3.5) (2021-03-24)
 
 
