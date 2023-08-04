@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.9](https://github.com/easyops-cn/vscode-brick-next/compare/v0.3.8...v0.3.9) (2023-08-04)
+
+
+### Bug Fixes
+
+* add new globals, support js ([bd8965a](https://github.com/easyops-cn/vscode-brick-next/commit/bd8965a39aba64a1a0c9343f82dd20059864fa40))
+
 ### [0.3.8](https://github.com/easyops-cn/vscode-brick-next/compare/v0.3.7...v0.3.8) (2022-02-22)
 
 
