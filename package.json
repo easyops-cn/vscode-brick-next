@@ -28,6 +28,7 @@
                 "injectTo": [
                     "source.json",
                     "source.yaml",
+                    "source.js",
                     "source.ts"
                 ]
             },
@@ -36,6 +37,7 @@
                 "path": "./syntaxes/injection-quoted-single.json",
                 "injectTo": [
                     "source.yaml",
+                    "source.js",
                     "source.ts"
                 ]
             },
@@ -51,8 +53,7 @@
                 "path": "./syntaxes/builtin-entity.json",
                 "injectTo": [
                     "source.json",
-                    "source.yaml",
-                    "source.ts"
+                    "source.yaml"
                 ]
             }
         ]
